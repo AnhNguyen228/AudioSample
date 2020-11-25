@@ -15,6 +15,7 @@
 		A49655FB256E037E00DC0590 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A49655F9256E037E00DC0590 /* LaunchScreen.storyboard */; };
 		A4965606256E037E00DC0590 /* AudioSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4965605256E037E00DC0590 /* AudioSampleTests.swift */; };
 		A4965611256E037E00DC0590 /* AudioSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4965610256E037E00DC0590 /* AudioSampleUITests.swift */; };
+		A4965626256E040300DC0590 /* AudioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4965625256E040300DC0590 /* AudioController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		A496560C256E037E00DC0590 /* AudioSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4965610256E037E00DC0590 /* AudioSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioSampleUITests.swift; sourceTree = "<group>"; };
 		A4965612256E037E00DC0590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4965625256E040300DC0590 /* AudioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		A49655ED256E037D00DC0590 /* AudioSample */ = {
 			isa = PBXGroup;
 			children = (
+				A4965621256E039400DC0590 /* AudioControl */,
 				A49655EE256E037D00DC0590 /* AppDelegate.swift */,
 				A49655F0256E037D00DC0590 /* SceneDelegate.swift */,
 				A49655F2256E037D00DC0590 /* ViewController.swift */,
@@ -126,6 +129,14 @@
 				A4965612256E037E00DC0590 /* Info.plist */,
 			);
 			path = AudioSampleUITests;
+			sourceTree = "<group>";
+		};
+		A4965621256E039400DC0590 /* AudioControl */ = {
+			isa = PBXGroup;
+			children = (
+				A4965625256E040300DC0590 /* AudioController.swift */,
+			);
+			path = AudioControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +271,7 @@
 			files = (
 				A49655F3256E037D00DC0590 /* ViewController.swift in Sources */,
 				A49655EF256E037D00DC0590 /* AppDelegate.swift in Sources */,
+				A4965626256E040300DC0590 /* AudioController.swift in Sources */,
 				A49655F1256E037D00DC0590 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
